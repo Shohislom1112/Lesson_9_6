@@ -1,0 +1,27 @@
+header {
+	background: #109be9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	.navbar-list {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+        padding: 10px 0 !important;
+		li {
+			a {
+				color: #fff;
+				font-family: Mulish;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 120%; /* 19.2px */
+				letter-spacing: 0.08px;
+				&:hover {
+					color: #f00;
+				}
+			}
+		}
+	}
+}
