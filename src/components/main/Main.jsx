@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import {
-  Mers,
-  Auddi,
-  BMW,
-  ferrari,
-  hundai,
-  lamborghini,
-  Nissan,
-  Sevishganlar,
-} from "../../../public/images";
+// import {
+//   Mers,
+//   Auddi,
+//   BMW,
+//   ferrari,
+//   hundai,
+//   lamborghini,
+//   Nissan,
+//   Sevishganlar,
+// } from "../../../public/images";
 import "./Main.scss";
 import MainLeft from "./MainLeft";
 import Search from "../search/Search";
@@ -20,7 +20,7 @@ const Main = () => {
 
   const fetchNews = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/news");
+      const res = await axios.get("http://localhost:5173/news");
       const data = await res.data;
       setNews(data);
     } catch (error) {
@@ -30,7 +30,7 @@ const Main = () => {
 
   const getPostDetails = async (id) => {
     try {
-      const res = await axios.get(`http://localhost:3000/news?id=${id}`);
+      const res = await axios.get(`http://localhost:5173/news?id=${id}`);
       const data = await res.data;
       setPosts(data);
     } catch (error) {}
