@@ -20,7 +20,7 @@ const Main = () => {
 
   const fetchNews = async () => {
     try {
-      const res = await axios.get("http://localhost:5173/news");
+      const res = await axios.get("http://localhost:300/news");
       const data = await res.data;
       setNews(data);
     } catch (error) {
@@ -30,7 +30,7 @@ const Main = () => {
 
   const getPostDetails = async (id) => {
     try {
-      const res = await axios.get(`http://localhost:5173/news?id=${id}`);
+      const res = await axios.get(`http://localhost:300/news?id=${id}`);
       const data = await res.data;
       setPosts(data);
     } catch (error) {}
