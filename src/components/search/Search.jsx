@@ -1,11 +1,10 @@
+import { useState } from "react";
 
-import React, { useState } from 'react';
-
-const Search = (post) => {
-  const [searchTerm, setSearchTerm] = useState('');
+const Search = () => {
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearch = (e) => {
-        setSearchTerm(e.target.value);    
+    setSearchTerm(e.target.value);
   };
 
   return (
@@ -15,7 +14,7 @@ const Search = (post) => {
         placeholder="Search..."
         value={searchTerm}
         onChange={handleSearch}
-        className='input form-control my-3'
+        className="input form-control my-3"
       />
     </div>
   );

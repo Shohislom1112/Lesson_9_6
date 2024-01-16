@@ -6,7 +6,7 @@
 
 .news-card {
 	width: 296px;
-	// height: 300px;
+
 	flex-shrink: 0;
 	overflow: hidden;
 	box-shadow: 3px 3px 15px 0 rgb(0, 0, 0, 0.4);
@@ -28,7 +28,7 @@
 	gap: 40px;
 	margin-top: 100px;
 
-	.main-left {
+	.main-1 {
 		max-width: 800px;
 		width: 100%;
 		padding: 0 20;
@@ -60,14 +60,5 @@
 			padding: 20px;
 		}
 	}
-	.main-right {
-		display: flex;
-		justify-content: center;
-		max-width: 350px;
-		width: 100%;
-		height: 600px;
-		padding: 0 20;
-		padding: 3px;
-		overflow-y: scroll;
-	}
+	
 }

@@ -1,0 +1,67 @@
+{
+  "news": [
+    {
+      "postId": 1,
+      "id": 1,
+      "image": "./public/images/Mers.jpg",
+      "title": "O‘zbekiston Mersadez-Bens bilan shartnoma qilmoqchi",
+      "paragraph": "O`zbekiston Respublikasi Mersadez-Bens ga shartnoma qilish uchun Germaniya bilan sulx tuzdi"
+    },
+    {
+      "postId": 1,
+      "id": 2,
+      "image": "./public/images/audi.jpg",
+      "title": "Endi Audi O`zbekistonda ishlab chiqariladi",
+      "paragraph": "Audi O`zbekistonda ham mashinalar rivojlanishi uchun o`z avto moshilarini O`zbekistonda ham ishlab chiqarmoqchi"
+    },
+    {
+      "postId": 1,
+      "id": 3,
+      "image": "./public/images/BMW.jpg",
+      "title": "Sirdaryoda Birinchi BMW avto saloni ochilladi",
+      "paragraph": "2024-yil O`zbekiston davlat prezidenti Sirdaryoga ham nazar tashlashga qaror qildi, ya'ni Sirdaryoni ham rivojlantirmoqchi"
+    },
+    {
+      "postId": 1,
+      "id": 4,
+      "image": "./public/images/Sevishganlar.jpg",
+      "title": "O‘zbekistonda 12 yildan beri beri bir-birini sevuvchi insonlar bir-birini joniga qast qilidi",
+      "paragraph": "U bolaning qizga orzulari yoqmadi va u bolani rad etdi shuning uchun bola o`z joniga qast qildi"
+    },
+    {
+      "postId": 1,
+      "id": 5,
+      "image": "./public/images/ferrari.jpg",
+      "title": "O`zbekistonlik bir fuqaro o`z ferrarisini yasadi",
+      "paragraph": "Bugun, 14-yanvar kuni bir bola o`z o`rtog`iga mashina yasab berdi u mashinani nomini ferrari deb atadi"
+    },
+    {
+      "postId": 1,
+      "id": 6,
+      "image": "./public/images/hundai.jpg",
+      "title": "O`zbekiston prezidenti o`zbekistonda Hundai mashinalarini kopaytirishga qaror qildi",
+      "paragraph": "Prezident Hundai mashinalarini havsiz deb o`yladi va shu qarorga keldi"
+    },
+    {
+      "postId": 1,
+      "id": 8,
+      "image": "./public/images/lambarghini.jpg",
+      "title": "Lorem ipsum dolor sit amet consectetur.",
+      "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae pariatur animi vitae magnam, est et omnis quo dicta voluptatibus earum, nostrum ratione velit enim quis!"
+    },
+    {
+      "postId": 1,
+      "id": 9,
+      "image": "./public/images/Nissan.jpg",
+      "title": "Lorem ipsum dolor sit amet consectetur.",
+      "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae pariatur animi vitae magnam, est et omnis quo dicta voluptatibus earum, nostrum ratione velit enim quis!"
+    },
+    {
+      "postId": 1,
+      "id": 10,
+      "image": "./public/images/Sevishganlar.jpg",
+      "title": "Lorem ipsum dolor sit amet consectetur.",
+      "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae pariatur animi vitae magnam, est et omnis quo dicta voluptatibus earum, nostrum ratione velit enim quis!"
+    }
+  ]
+}
